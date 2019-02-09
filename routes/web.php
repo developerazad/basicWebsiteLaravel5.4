@@ -28,5 +28,5 @@ Route::get('/contact', function (){
 });
 
 Route::get('/test', function (){
-    return view('testA');
+    return view('lorem');
 });

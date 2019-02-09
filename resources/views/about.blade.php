@@ -12,3 +12,7 @@
 @section('title')
     about
 @endsection
+@section('sidebar2')
+    @parent
+    <p>about page sidebar</p>
+@endsection
