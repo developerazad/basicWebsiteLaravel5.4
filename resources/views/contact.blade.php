@@ -1,13 +1,14 @@
 @extends('layouts.app')
+@section('title')
+    Contact
+@endsection
+
 @section('content')
     <h1>Contact</h1>
 @endsection
 
 @section('sidebar')
-    <h3>This is contact page sidebar</h3>
-    <p>This is the description of contact page sidebar</p>
-@endsection
+    @parent
+    <p>This is from contact page</p>
+    @endsection
 
-@section('title')
-    contact
-@endsection

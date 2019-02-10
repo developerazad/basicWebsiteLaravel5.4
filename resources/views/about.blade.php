@@ -1,18 +1,14 @@
 @extends('layouts.app')
 
+@section('title')
+    About
+@endsection
 
 @section('content')
     <h1>About</h1>
 @endsection
 
 @section('sidebar')
-    <h3>This is about sidebar</h3>
-    <p>This is description of about page</p>
-@endsection
-@section('title')
-    about
-@endsection
-@section('sidebar2')
     @parent
-    <p>about page sidebar</p>
+    <p>This is from about page</p>
 @endsection

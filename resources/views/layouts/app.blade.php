@@ -7,12 +7,7 @@
 
     <body>
         @yield('content')
-        @yield('sidebar')
-        @section('sidebar2')
-            <div class="sidebar2">
-                <p>This is another sidebar appended from parent</p>
-                @show
-            </div>
-        @endsection
+        @include('inc.sidebar')
+
     </body>
 </html>
